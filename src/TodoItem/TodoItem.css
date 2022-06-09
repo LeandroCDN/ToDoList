@@ -1,5 +1,5 @@
 .TodoItem {
-  background-color: #FAFAFA;
+  background-color: #ffffffcb;
   position: relative;
   border-radius: 20px;
   width: calc(100% - 10%); 
@@ -11,7 +11,7 @@
   margin-right: auto;
   margin-left: auto;
   
-  box-shadow: 3px 3px #d486dd;;
+  box-shadow: 6px 5px #120b13;;
 }
 
 .TodoItem-p {
@@ -40,10 +40,11 @@
 
 .Icon-check {
   position: absolute;
+  font-size: 30px;
   left: 12px;
 }
 .Icon-check--active {
-  color: #009105;
+  color: #62fc68;
 }
 
 .Icon-delete {
